@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "p1"
+version = "0.1.0"
+description = "My first django project"
+authors = ["Matariel9 <dragnickolay@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.1.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
